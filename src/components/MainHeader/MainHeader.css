@@ -18,9 +18,19 @@
 
 .web-title {
     margin: 0rem 2rem;
-    font-family: "Courgette", cursive;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+}
+
+.web-title a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.web-title a .beet {
+    color: rgb(172, 36, 36);
+    font-weight: 600;
 }
 
 .links {
@@ -32,17 +42,12 @@
     width: fit-content;
 }
 
-img {
-    height: 48px;
-    width: 48px;
-}
 
-a {
+.header-section.left .links a {
     cursor: pointer;
     text-decoration: none;
     color: black;
     transition-duration: 0.2s;
-
     &:hover {
         color: rgb(255, 255, 255);
     }
@@ -61,3 +66,19 @@ a {
         box-shadow: 3px 3px 0px rgb(23, 23, 23);
     }
 }
+
+.header-section.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.header-section.account img {
+    height: 48px;
+    width: 48px;
+}
+
+
