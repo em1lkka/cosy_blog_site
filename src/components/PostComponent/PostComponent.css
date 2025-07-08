@@ -1,0 +1,83 @@
+.post-container {
+    border: 5px solid rgb(88, 138, 122);
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    width: fit-content;
+    max-width: 50rem;
+    height: fit-content;
+    /* max-height: 35rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.post-container legend {
+    padding: 0.5rem;
+
+}
+
+.post-container legend a {
+    text-decoration: none;
+    color: rgb(172, 36, 36);
+    font-weight: bold;
+    
+}
+
+.post-container .post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.post-container img {
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.post-container .post-content {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.post-container .post-content .description-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.post-container .post-content .description-container .desc-title {
+    color: darkgrey;
+}
+
+.post-container .post-content .description-container .post-description {
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+}
+
+.post-container .post-categories {
+    width: 100%;
+}
+
+.post-container .post-categories .categ-title {
+    color: darkgrey;
+}
+
+.post-container .post-categories .category-list {
+    width: 100%;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.post-container .post-categories .category-list .category-item {
+    color: rgb(79, 79, 79);
+    background-color: lightgray;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid darkgray;
+    border-radius: 2rem;
+}
+
+
