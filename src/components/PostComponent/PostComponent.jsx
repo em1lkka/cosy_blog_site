@@ -10,10 +10,11 @@ function PostComponent({username, title, post_desc, img, pic_desc, categories}) 
     return(
         <fieldset className="post-container">
             <legend><a href="#profile">@{username}</a></legend>
-            <h3 className="post-title">{title}</h3>
+            
             <div className="post-content">
                 {img ? <img src={img} alt={pic_desc}/> : null}
                 <div className="description-container">
+                    <h3 className="post-title">{title}</h3>
                     <p className="desc-title">Description</p>
                     <p className="post-description">{post_desc}</p>
                 </div>

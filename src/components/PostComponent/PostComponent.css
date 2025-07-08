@@ -1,5 +1,5 @@
 .post-container {
-    border: 5px solid rgb(88, 138, 122);
+    border: 1px solid rgb(131, 173, 160);
     border-radius: 2rem;
     padding: 1rem 4rem;
     width: fit-content;
@@ -10,6 +10,8 @@
     flex-direction: column;
     gap: 1.5rem;
     align-items: flex-start;
+    background: hsl(from grey h s l / 0.3);
+    backdrop-filter: blur(5px);
 }
 
 .post-container legend {
@@ -19,12 +21,13 @@
 
 .post-container legend a {
     text-decoration: none;
-    color: rgb(172, 36, 36);
+    color: black;
     font-weight: bold;
     
 }
 
 .post-container .post-title {
+    color: rgb(227, 227, 227);
     font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
@@ -48,7 +51,7 @@
 }
 
 .post-container .post-content .description-container .desc-title {
-    color: darkgrey;
+    color: rgb(227, 227, 227);
 }
 
 .post-container .post-content .description-container .post-description {
@@ -61,7 +64,7 @@
 }
 
 .post-container .post-categories .categ-title {
-    color: darkgrey;
+    color: rgb(227, 227, 227);
 }
 
 .post-container .post-categories .category-list {
@@ -78,6 +81,13 @@
     padding: 0.2rem 0.8rem;
     border: 1px solid darkgray;
     border-radius: 2rem;
+    transition-duration: 0.2s;
+    &:hover {
+        color: rgba(53, 53, 53, 0.8);
+        background-color: rgba(200, 200, 200, 0.5);
+        border: 1px solid rgba(170, 170, 170, 0.8);
+        cursor: pointer;
+    }
 }
 
 

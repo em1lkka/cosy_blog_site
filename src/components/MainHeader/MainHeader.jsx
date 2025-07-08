@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
-import user_icon_solid_black from "../../images/user_icon_solid_black.png";
+import user_icon_solid_black from "../../images/user_nobg.png";
 import "./MainHeader.css"
 import DropDownMenu from '../DropDownMenu/DropDownMenu';
 
