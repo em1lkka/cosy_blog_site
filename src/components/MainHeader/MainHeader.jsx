@@ -3,6 +3,7 @@ import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
 import user_icon_solid_black from "../../images/user_nobg.png";
 import "./MainHeader.css"
 import DropDownMenu from '../DropDownMenu/DropDownMenu';
+import { Link } from "react-router-dom"
 
 function MainHeader() {
 
@@ -12,11 +13,11 @@ function MainHeader() {
     <div className='main-header'>
         
         <div className="header-section left">
-            <h1 className='web-title'><a href='#home'>Hob<span className='beet'>BEET</span></a></h1>
+            <h1 className='web-title'><Link to="/"><a>Hob<span className='beet'>BEET</span></a></Link></h1>
             <div className='links'>
-              <a href='#home'>Home</a>
+              <Link to="/"><a>Home</a></Link>
               <a href="#friends">Friends</a>
-              <a href="/create-post" className='create-post-btn'>Create</a>
+              <Link to="/create-post"><a className='create-post-btn'>Create</a></Link>
             </div>
         </div>
         <div className="header-section account" onClick={() => {setOpen(!open)}}>
