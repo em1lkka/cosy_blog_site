@@ -16,7 +16,7 @@ function MainHeader() {
             <div className='links'>
               <a href='#home'>Home</a>
               <a href="#friends">Friends</a>
-              <button className='create-post-btn'>Create</button>
+              <a href="/create-post" className='create-post-btn'>Create</a>
             </div>
         </div>
         <div className="header-section account" onClick={() => {setOpen(!open)}}>

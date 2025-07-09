@@ -12,8 +12,7 @@ function App() {
         <PostComponent username={"bob"} post_desc={'Yippie love skating!'} categories={['crocheting', 'creative']} title={"Skating"}/>
         <PostComponent username={"bob"} post_desc={'Yippie love skating!'} categories={['crocheting', 'creative']} title={"Skating"}/>
         <PostComponent username={"dinozaurka"} post_desc={'Omg made my first granny square! I am so excited to begin my crochet journey with some kind of project! Please be kind :)'} title={"My first granny square!"} categories={['crocheting', 'creative']} img={granny_square}/>
-        <PostComponent username={"bob"} post_desc={'Yippie love skating!'} categories={['sports', 'skating', 'dangerous']} title={"Skating"}/>
-            
+        <PostComponent username={"bob"} post_desc={'Yippie love skating!'} categories={['sports', 'skating', 'dangerous']} title={"Skating"}/> 
       </section>
       </>
   )
