@@ -1,0 +1,95 @@
+.post-container {
+    border: 1px solid rgb(131, 173, 160);
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    width: fit-content;
+    max-width: 50rem;
+    height: fit-content;
+    /* max-height: 35rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    background: hsl(from grey h s l / 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.post-container legend {
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(131, 173, 160);
+    border-radius: 2rem;
+    background-color: rgb(131, 173, 160);
+}
+
+.post-container legend a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.post-container .post-title {
+    color: rgb(227, 227, 227);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.post-container .post-content img {
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.post-container .post-content {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.post-container .post-content .description-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.post-container .post-content .description-container .desc-title {
+    color: rgb(227, 227, 227);
+}
+
+.post-container .post-content .description-container .post-description {
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+}
+
+.post-container .post-categories {
+    width: 100%;
+}
+
+.post-container .post-categories .categ-title {
+    color: rgb(227, 227, 227);
+}
+
+.post-container .post-categories .category-list {
+    width: 100%;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.post-container .post-categories .category-list .category-item {
+    color: rgb(79, 79, 79);
+    background-color: lightgray;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid darkgray;
+    border-radius: 2rem;
+    transition-duration: 0.2s;
+    &:hover {
+        color: rgba(53, 53, 53, 0.8);
+        background-color: rgba(200, 200, 200, 0.5);
+        border: 1px solid rgba(170, 170, 170, 0.8);
+        cursor: pointer;
+    }
+}
+
+
