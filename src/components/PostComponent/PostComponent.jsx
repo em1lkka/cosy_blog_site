@@ -1,6 +1,7 @@
 import React from "react";
 import './PostComponent.css'
 
+
 function PostComponent({username, title, post_desc, img, pic_desc, categories}) {
 
     const categoryList = categories?.map((category) =>
@@ -9,7 +10,9 @@ function PostComponent({username, title, post_desc, img, pic_desc, categories}) 
 
     return(
         <fieldset className="post-container">
-            <legend><a href="#profile">@{username}</a></legend>
+            <legend>
+                <a href="#profile">@{username}</a>
+            </legend>
             
             <div className="post-content">
                 {img ? <img src={img} alt={pic_desc}/> : null}
